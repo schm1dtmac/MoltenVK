@@ -288,7 +288,7 @@ void MVKRenderSubpass::populateMTLRenderPassDescriptor(MTLRenderPassDescriptor* 
 		}
 		if ([mtlRPDesc respondsToSelector: @selector(setOpenGLModeEnabled:)]) {
 			// Unlocks APIs such as setPrimitiveRestartEnabled.
-			[mtlRPDesc setOpenGLModeEnabled:true];
+			//[mtlRPDesc setOpenGLModeEnabled:true];
 		}
 	}
 #endif
